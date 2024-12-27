@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>CVI Q-Check message Class</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Es konnten keine Fehler ermittelt werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Stammsatz hat zentrale Löschvormerkung.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Stammsatz hat Löschvormerkung für das Buchungskreis &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Stammsatz hat Löschvormerkung auf Vertriebssebene &amp; &amp; &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Länge von &amp;1 darf nicht Länger als 35 Zeichen sein.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Der Titel &amp;1 ist für Organisationen nicht erlaubt, siehe Hinweis 1767277.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Email-Adresse &amp;1 ist nicht korrekt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Kundennr. &amp;1 ist nicht im Intervall &amp;2 - &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Lieferantennr. &amp;1 ist nicht im Intervall &amp;2 - &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Bank &amp;1 &amp;2 existiert nicht.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Bankleitzahl &amp;1 oder Kontonummer &amp;2 ist für Land &amp;3 nicht korrekt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Bankleitzahl &amp;1 muss &amp;2 lang sein.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Bank-Kontonummer fehlt für das Land &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>EU Steuernummer &amp;1 für das Land &amp;2 ist nicht korrekt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Steuerart &amp;1 für das Land &amp;2 nicht erlaubt; Tab. TFKTAXNUMTYPE prüfen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Steuer-Code &amp;1 &amp;2 ist für das Land &amp;3 nicht korrekt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Steuerstandort-Code &amp;1 ist für das Land &amp;2 nicht korrekt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Steuerstandort-Code &amp;1 kann nicht überprüft werden; RFC_DEST nicht gef.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>&amp;1 &amp;2 für das Land &amp;3 nicht gültig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>&amp;1 fehlt für das Land &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>&amp;1 ist nicht korrekt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Das Land &amp;1 ist nicht gültig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Transportzone ist obligatorisch.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Transportzone &amp;1 ist für das Land &amp;2 nicht definiert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Mapping für Branche &amp;1 fehlt im Customizing (Tabelle TP038M2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>&amp;1 ist für das Land &amp;2 nicht gültig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>R1-367: Konsistenz: Adressdaten Vendor &amp; - Customer &amp; ungleich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>R1-367: Konsistenz: Bankdaten Vendor &amp; - Customer &amp; ungleich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>R1-367: Konsistenz: Customer &amp; zu Vendor &amp; existiert nicht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>R1-367: Konsistenz: Vendor &amp; zu Customer &amp; existiert nicht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>R1-367: Konsistenz: Adressdaten Customer &amp; - Vendor &amp; ungleich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>R1-367: Konsistenz: Bankdaten Customer &amp; - Vendor &amp; ungleich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Download + Fremddatenprüfung ist nicht gleichzeitig möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>R1-367: inkonsistente Adressdaten (&amp;) / Debitor: &amp; - Kreditor: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>R1-367: inkonsistente Bankdaten (&amp;) / Debitor: &amp; - Kreditor: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>R1-367: inkonsistente Adressdaten (&amp;) / Kreditor: &amp; - Debitor: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>R1-367: inkonsistente Bankdaten (&amp;) / Kreditor: &amp; - Debitor: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Der logische Pfad &amp; ist ungültig -&gt; bitte einen anderen wählen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Die Datei &amp; wurde gelöscht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Variante &amp; wurde gesichert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Aktualisierung durchgeführt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Für den Dubletten-Lauf muss mind. 1 Prüf-Parameter angegeben werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Für die angegebene RUN ID &amp;1 wurden keine Verwendungsnachweise gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Bitte mindestens eine Prüfung auswählen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Bitte Zutreffende Laufnummer ankreuzen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Zu Laufnummer &amp;1 wurden keine Ergebnisse gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Bitte Kundendaten eingeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Bitte Lieferantendaten eingeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Für &amp;1 &amp;2 ist keine &amp;3 vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Fehler bei Lauf-ID-Erzeugung</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>&amp; UUID Generierungsfehler</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/QCHK/CL_CVI_MESSAGE</ARBGB>
+     <MSGNR>999</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

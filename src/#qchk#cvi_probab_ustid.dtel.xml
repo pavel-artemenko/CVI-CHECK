@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/QCHK/CVI_PROBAB_USTID</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Wahrscheinlichkeit UstID</DDTEXT>
+    <REPTEXT>% UstID</REPTEXT>
+    <SCRTEXT_S>% UstID</SCRTEXT_S>
+    <SCRTEXT_M>% UstID</SCRTEXT_M>
+    <SCRTEXT_L>% UstID</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>DEC</DATATYPE>
+    <LENG>000008</LENG>
+    <DECIMALS>000002</DECIMALS>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Duplicate matching VAT identification number</DDTEXT>
+     <REPTEXT>% VAT No.</REPTEXT>
+     <SCRTEXT_S>% VAT No.</SCRTEXT_S>
+     <SCRTEXT_M>% VAT No.</SCRTEXT_M>
+     <SCRTEXT_L>% VAT No.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

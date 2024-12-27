@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/QCHK/CVI_OBJ_SOURCE_ID</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>14</SCRLEN3>
+    <DDTEXT>Objektnummer</DDTEXT>
+    <REPTEXT>Objektnummer</REPTEXT>
+    <SCRTEXT_S>Objektnr.</SCRTEXT_S>
+    <SCRTEXT_M>Objektnummer</SCRTEXT_M>
+    <SCRTEXT_L>Objektnummer</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>SYNC_OBJ_SOUR_ID</DEFFDNAME>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000020</LENG>
+    <OUTPUTLEN>000020</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>d</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>源对象标识</DDTEXT>
+     <REPTEXT>源标识</REPTEXT>
+     <SCRTEXT_S>源标识</SCRTEXT_S>
+     <SCRTEXT_M>源标识</SCRTEXT_M>
+     <SCRTEXT_L>源标识</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ID ออบเจคต้นทาง</DDTEXT>
+     <REPTEXT>ID ต้นทาง</REPTEXT>
+     <SCRTEXT_S>ID ต้นทาง</SCRTEXT_S>
+     <SCRTEXT_M>ID ต้นทาง</SCRTEXT_M>
+     <SCRTEXT_L>ID ต้นทาง</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>소스 오브젝트 ID</DDTEXT>
+     <REPTEXT>소스 ID</REPTEXT>
+     <SCRTEXT_S>소스 ID</SCRTEXT_S>
+     <SCRTEXT_M>소스 ID</SCRTEXT_M>
+     <SCRTEXT_L>소스 ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>ID obiect sursă</DDTEXT>
+     <REPTEXT>ID sursă</REPTEXT>
+     <SCRTEXT_S>ID sursă</SCRTEXT_S>
+     <SCRTEXT_M>ID sursă</SCRTEXT_M>
+     <SCRTEXT_L>ID sursă</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>ID izvornega objekta</DDTEXT>
+     <REPTEXT>IzvorniID</REPTEXT>
+     <SCRTEXT_S>IzvorniID</SCRTEXT_S>
+     <SCRTEXT_M>IzvorniID</SCRTEXT_M>
+     <SCRTEXT_L>Izvorni ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>ID izvornog objekta</DDTEXT>
+     <REPTEXT>ID izvora</REPTEXT>
+     <SCRTEXT_S>ID izvora</SCRTEXT_S>
+     <SCRTEXT_M>ID izvora</SCRTEXT_M>
+     <SCRTEXT_L>ID izvora</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>معرف كائن المصدر</DDTEXT>
+     <REPTEXT>معرف مصدر</REPTEXT>
+     <SCRTEXT_S>معرف مصدر</SCRTEXT_S>
+     <SCRTEXT_M>معرف مصدر</SCRTEXT_M>
+     <SCRTEXT_L>معرف مصدر</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>זיהוי אובייקט מקור</DDTEXT>
+     <REPTEXT>זהוי מקור</REPTEXT>
+     <SCRTEXT_S>זהוי מקור</SCRTEXT_S>
+     <SCRTEXT_M>זהוי מקור</SCRTEXT_M>
+     <SCRTEXT_L>זהוי מקור</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>ID zdrojového objektu</DDTEXT>
+     <REPTEXT>ID zdroje</REPTEXT>
+     <SCRTEXT_S>ID zdroje</SCRTEXT_S>
+     <SCRTEXT_M>ID zdroje</SCRTEXT_M>
+     <SCRTEXT_L>ID zdroje</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Object number</DDTEXT>
+     <REPTEXT>Object number</REPTEXT>
+     <SCRTEXT_S>Object no</SCRTEXT_S>
+     <SCRTEXT_M>Object number</SCRTEXT_M>
+     <SCRTEXT_L>Object number</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>ID de l&apos;objet source</DDTEXT>
+     <REPTEXT>ID source</REPTEXT>
+     <SCRTEXT_S>ID source</SCRTEXT_S>
+     <SCRTEXT_M>ID source</SCRTEXT_M>
+     <SCRTEXT_L>ID source</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>ID Αντικειμένου Πηγής</DDTEXT>
+     <REPTEXT>ID πηγής</REPTEXT>
+     <SCRTEXT_S>ID πηγής</SCRTEXT_S>
+     <SCRTEXT_M>ID πηγής</SCRTEXT_M>
+     <SCRTEXT_L>ID πηγής</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Forrásobjektum azonosítója</DDTEXT>
+     <REPTEXT>Forrás-ID</REPTEXT>
+     <SCRTEXT_S>Forrás-ID</SCRTEXT_S>
+     <SCRTEXT_M>Forrás-ID</SCRTEXT_M>
+     <SCRTEXT_L>Forrás-ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>ID dell&apos;oggetto sorgente</DDTEXT>
+     <REPTEXT>ID sorg.</REPTEXT>
+     <SCRTEXT_S>ID sorg.</SCRTEXT_S>
+     <SCRTEXT_M>ID sorg.</SCRTEXT_M>
+     <SCRTEXT_L>ID sorg.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>ソースオブジェクト ID</DDTEXT>
+     <REPTEXT>ソース ID</REPTEXT>
+     <SCRTEXT_S>ソース ID</SCRTEXT_S>
+     <SCRTEXT_M>ソース ID</SCRTEXT_M>
+     <SCRTEXT_L>ソース ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>ID for kildeobjekt</DDTEXT>
+     <REPTEXT>Kilde-ID</REPTEXT>
+     <SCRTEXT_S>Kilde-ID</SCRTEXT_S>
+     <SCRTEXT_M>Kilde-ID</SCRTEXT_M>
+     <SCRTEXT_L>Kilde-ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>ID obiektu źródłowego</DDTEXT>
+     <REPTEXT>ID źródła</REPTEXT>
+     <SCRTEXT_S>ID źródła</SCRTEXT_S>
+     <SCRTEXT_M>ID źródła</SCRTEXT_M>
+     <SCRTEXT_L>ID źródła</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>來源物件 ID</DDTEXT>
+     <REPTEXT>來源 ID</REPTEXT>
+     <SCRTEXT_S>來源 ID</SCRTEXT_S>
+     <SCRTEXT_M>來源 ID</SCRTEXT_M>
+     <SCRTEXT_L>來源 ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>ID bronobject</DDTEXT>
+     <REPTEXT>Bron-ID</REPTEXT>
+     <SCRTEXT_S>Bron-ID</SCRTEXT_S>
+     <SCRTEXT_M>Bron-ID</SCRTEXT_M>
+     <SCRTEXT_L>Bron-ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>ID for kildeobjekt</DDTEXT>
+     <REPTEXT>Kilde-ID</REPTEXT>
+     <SCRTEXT_S>Kilde-ID</SCRTEXT_S>
+     <SCRTEXT_M>Kilde-ID</SCRTEXT_M>
+     <SCRTEXT_L>Kilde-ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>ID do objeto fonte</DDTEXT>
+     <REPTEXT>ID fonte</REPTEXT>
+     <SCRTEXT_S>ID fonte</SCRTEXT_S>
+     <SCRTEXT_M>ID fonte</SCRTEXT_M>
+     <SCRTEXT_L>ID fonte</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>ID zdrojového objektu</DDTEXT>
+     <REPTEXT>ID zdroj.</REPTEXT>
+     <SCRTEXT_S>ID zdroj.</SCRTEXT_S>
+     <SCRTEXT_M>ID zdroj.</SCRTEXT_M>
+     <SCRTEXT_L>ID zdroj.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Ид. исходного объекта</DDTEXT>
+     <REPTEXT>ИсходнИд.</REPTEXT>
+     <SCRTEXT_S>ИсходнИд.</SCRTEXT_S>
+     <SCRTEXT_M>ИсходнИд.</SCRTEXT_M>
+     <SCRTEXT_L>ИсходнИд.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>ID del objeto fuente</DDTEXT>
+     <REPTEXT>ID fuente</REPTEXT>
+     <SCRTEXT_S>ID fuente</SCRTEXT_S>
+     <SCRTEXT_M>ID fuente</SCRTEXT_M>
+     <SCRTEXT_L>ID de fuente</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Kaynak nesnesi tanıtıcısı</DDTEXT>
+     <REPTEXT>Kyn.tn.</REPTEXT>
+     <SCRTEXT_S>Kyn.tn.</SCRTEXT_S>
+     <SCRTEXT_M>Kyn.tn.</SCRTEXT_M>
+     <SCRTEXT_L>Kaynak tn.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Lähdeobjektin tunnus</DDTEXT>
+     <REPTEXT>Lähde-ts</REPTEXT>
+     <SCRTEXT_S>Lähde-ts</SCRTEXT_S>
+     <SCRTEXT_M>Lähde-ts</SCRTEXT_M>
+     <SCRTEXT_L>Lähde-ts</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>ID för källobjekt</DDTEXT>
+     <REPTEXT>Käll-ID</REPTEXT>
+     <SCRTEXT_S>Käll-ID</SCRTEXT_S>
+     <SCRTEXT_M>Käll-ID</SCRTEXT_M>
+     <SCRTEXT_L>Käll-ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>ИД изходен обект</DDTEXT>
+     <REPTEXT>ИД източ.</REPTEXT>
+     <SCRTEXT_S>ИД източ.</SCRTEXT_S>
+     <SCRTEXT_M>ИД източ.</SCRTEXT_M>
+     <SCRTEXT_L>ИД на източник</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>ID izvornog objekta</DDTEXT>
+     <REPTEXT>ID izvora</REPTEXT>
+     <SCRTEXT_S>ID izvora</SCRTEXT_S>
+     <SCRTEXT_M>ID izvora</SCRTEXT_M>
+     <SCRTEXT_L>ID izvora</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

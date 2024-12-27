@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/QCHK/CVI_PLAUSIBILITY_USTID</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/QCHK/CVI_CHECKBOX</DOMNAME>
+    <HEADLEN>29</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>29</SCRLEN3>
+    <DDTEXT>Plausibilitätsprüfung Ust.-ID</DDTEXT>
+    <REPTEXT>Plausibilitätsprüfung Ust.-ID</REPTEXT>
+    <SCRTEXT_S>Pl. UstID</SCRTEXT_S>
+    <SCRTEXT_M>Plaus. Ust.-ID</SCRTEXT_M>
+    <SCRTEXT_L>Plausibilitätsprüfung Ust.-ID</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Plausibility check for VAT identification number</DDTEXT>
+     <REPTEXT>Plausibility check VAT No.</REPTEXT>
+     <SCRTEXT_S>Pl. VAT No</SCRTEXT_S>
+     <SCRTEXT_M>Pl.Check VAT No</SCRTEXT_M>
+     <SCRTEXT_L>Plausibility check VAT No.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

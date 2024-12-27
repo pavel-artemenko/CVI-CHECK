@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/QCHK/CVI_DUPLICATE_TYPE</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/QCHK/CVI_DUPLICATE_TYPE</DOMNAME>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Dubletten Typ</DDTEXT>
+    <REPTEXT>Dubletten Typ</REPTEXT>
+    <SCRTEXT_S>Typ</SCRTEXT_S>
+    <SCRTEXT_M>Dubl. Typ</SCRTEXT_M>
+    <SCRTEXT_L>Dubletten Typ</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Duplicate Type</DDTEXT>
+     <REPTEXT>Dupl. Type</REPTEXT>
+     <SCRTEXT_S>Dupl. Type</SCRTEXT_S>
+     <SCRTEXT_M>Dubl. Typ</SCRTEXT_M>
+     <SCRTEXT_L>Duplicate Type</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

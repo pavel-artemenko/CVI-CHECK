@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/QCHK/CVI_PLAUSIBILITY_NAME</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/QCHK/CVI_CHECKBOX</DOMNAME>
+    <HEADLEN>28</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>29</SCRLEN3>
+    <DDTEXT>Plausibilitätsprüfung Name</DDTEXT>
+    <REPTEXT>Plausibilitätsprüfung Name</REPTEXT>
+    <SCRTEXT_S>Pl. Name</SCRTEXT_S>
+    <SCRTEXT_M>Plaus. Name</SCRTEXT_M>
+    <SCRTEXT_L>Plausibilitätsprüfung Name</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Plausibility Check Name</DDTEXT>
+     <REPTEXT>Plausibility Check Name</REPTEXT>
+     <SCRTEXT_S>Pl. Name</SCRTEXT_S>
+     <SCRTEXT_M>Plaus. Name</SCRTEXT_M>
+     <SCRTEXT_L>Plausibility Check Name</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

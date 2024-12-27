@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/QCHK/CVI_ERROR_CATEGORY_FIELD</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>CHAR40</DOMNAME>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>14</SCRLEN3>
+    <DDTEXT>aktueller Wert</DDTEXT>
+    <REPTEXT>aktueller Wert</REPTEXT>
+    <SCRTEXT_S>akt. Wert</SCRTEXT_S>
+    <SCRTEXT_M>aktueller Wert</SCRTEXT_M>
+    <SCRTEXT_L>aktueller Wert</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>FIELD</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>d</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>参数中的字段</DDTEXT>
+     <REPTEXT>字段</REPTEXT>
+     <SCRTEXT_S>字段</SCRTEXT_S>
+     <SCRTEXT_M>字段名称</SCRTEXT_M>
+     <SCRTEXT_L>字段名称</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ฟิลด์ในพารามิเตอร์</DDTEXT>
+     <REPTEXT>ฟิลด์</REPTEXT>
+     <SCRTEXT_S>ฟิลด์</SCRTEXT_S>
+     <SCRTEXT_M>ชื่อฟิลด์</SCRTEXT_M>
+     <SCRTEXT_L>ชื่อฟิลด์</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>매개변수 필드</DDTEXT>
+     <REPTEXT>필드</REPTEXT>
+     <SCRTEXT_S>필드</SCRTEXT_S>
+     <SCRTEXT_M>필드 이름</SCRTEXT_M>
+     <SCRTEXT_L>필드 이름</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Câmp în parametru</DDTEXT>
+     <REPTEXT>Câmp</REPTEXT>
+     <SCRTEXT_S>Câmp</SCRTEXT_S>
+     <SCRTEXT_M>Nume câmp</SCRTEXT_M>
+     <SCRTEXT_L>Nume câmp</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Polje v parametru</DDTEXT>
+     <REPTEXT>Polje</REPTEXT>
+     <SCRTEXT_S>Polje</SCRTEXT_S>
+     <SCRTEXT_M>Naziv polja</SCRTEXT_M>
+     <SCRTEXT_L>Naziv polja</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Polje u parametru</DDTEXT>
+     <REPTEXT>Polje</REPTEXT>
+     <SCRTEXT_S>Polje</SCRTEXT_S>
+     <SCRTEXT_M>Naziv polja</SCRTEXT_M>
+     <SCRTEXT_L>Naziv polja</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>الحقل في المعامِل</DDTEXT>
+     <REPTEXT>حقل.</REPTEXT>
+     <SCRTEXT_S>حقل</SCRTEXT_S>
+     <SCRTEXT_M>اسم الحقل</SCRTEXT_M>
+     <SCRTEXT_L>اسم الحقل</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>שדה בפרמטר</DDTEXT>
+     <REPTEXT>שדה</REPTEXT>
+     <SCRTEXT_S>שדה</SCRTEXT_S>
+     <SCRTEXT_M>שם שדה</SCRTEXT_M>
+     <SCRTEXT_L>שם שדה</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Pole v parametru</DDTEXT>
+     <REPTEXT>Pole</REPTEXT>
+     <SCRTEXT_S>Pole</SCRTEXT_S>
+     <SCRTEXT_M>Název pole</SCRTEXT_M>
+     <SCRTEXT_L>Název pole</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>current value</DDTEXT>
+     <REPTEXT>current value</REPTEXT>
+     <SCRTEXT_S>cur. value</SCRTEXT_S>
+     <SCRTEXT_M>current value</SCRTEXT_M>
+     <SCRTEXT_L>current value</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Zone dans paramètre</DDTEXT>
+     <REPTEXT>Zone</REPTEXT>
+     <SCRTEXT_S>Zone</SCRTEXT_S>
+     <SCRTEXT_M>Nom de zone</SCRTEXT_M>
+     <SCRTEXT_L>Nom de zone</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Πεδίο σε παράμετρο</DDTEXT>
+     <REPTEXT>Πεδίο</REPTEXT>
+     <SCRTEXT_S>Πεδίο</SCRTEXT_S>
+     <SCRTEXT_M>Ονομα πεδίου</SCRTEXT_M>
+     <SCRTEXT_L>Ονομα πεδίου</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Mező a paraméterben</DDTEXT>
+     <REPTEXT>Mező</REPTEXT>
+     <SCRTEXT_S>Mező</SCRTEXT_S>
+     <SCRTEXT_M>Mezőnév</SCRTEXT_M>
+     <SCRTEXT_L>Mezőnév</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Campo nel parametro</DDTEXT>
+     <REPTEXT>Cmp.</REPTEXT>
+     <SCRTEXT_S>Campo</SCRTEXT_S>
+     <SCRTEXT_M>Nome campo</SCRTEXT_M>
+     <SCRTEXT_L>Nome campo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>パラメータの項目</DDTEXT>
+     <REPTEXT>項目</REPTEXT>
+     <SCRTEXT_S>項目</SCRTEXT_S>
+     <SCRTEXT_M>項目名</SCRTEXT_M>
+     <SCRTEXT_L>項目名</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Felt i parameter</DDTEXT>
+     <REPTEXT>Felt</REPTEXT>
+     <SCRTEXT_S>Felt</SCRTEXT_S>
+     <SCRTEXT_M>Feltnavn</SCRTEXT_M>
+     <SCRTEXT_L>Feltnavn</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Pole w parametrze</DDTEXT>
+     <REPTEXT>Pole</REPTEXT>
+     <SCRTEXT_S>Pole</SCRTEXT_S>
+     <SCRTEXT_M>Nazwa pola</SCRTEXT_M>
+     <SCRTEXT_L>Nazwa pola</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>參數內的欄位</DDTEXT>
+     <REPTEXT>欄位</REPTEXT>
+     <SCRTEXT_S>欄位</SCRTEXT_S>
+     <SCRTEXT_M>欄位名稱</SCRTEXT_M>
+     <SCRTEXT_L>欄位名稱</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Veld in de parameter</DDTEXT>
+     <REPTEXT>Veld</REPTEXT>
+     <SCRTEXT_S>Veld</SCRTEXT_S>
+     <SCRTEXT_M>Veldnaam</SCRTEXT_M>
+     <SCRTEXT_L>Veldnaam</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Felt i parameteren</DDTEXT>
+     <REPTEXT>Felt</REPTEXT>
+     <SCRTEXT_S>Felt</SCRTEXT_S>
+     <SCRTEXT_M>Feltnavn</SCRTEXT_M>
+     <SCRTEXT_L>Feltnavn</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Campo em parâmetro</DDTEXT>
+     <REPTEXT>Cpo.</REPTEXT>
+     <SCRTEXT_S>Campo</SCRTEXT_S>
+     <SCRTEXT_M>Nome do campo</SCRTEXT_M>
+     <SCRTEXT_L>Nome do campo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Pole v parametri</DDTEXT>
+     <REPTEXT>Pole</REPTEXT>
+     <SCRTEXT_S>Pole</SCRTEXT_S>
+     <SCRTEXT_M>Názov poľa</SCRTEXT_M>
+     <SCRTEXT_L>Názov poľa</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Поле в параметре</DDTEXT>
+     <REPTEXT>Поле</REPTEXT>
+     <SCRTEXT_S>Поле</SCRTEXT_S>
+     <SCRTEXT_M>Имя поля</SCRTEXT_M>
+     <SCRTEXT_L>Имя поля</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Campo en parámetro</DDTEXT>
+     <REPTEXT>Campo</REPTEXT>
+     <SCRTEXT_S>Campo</SCRTEXT_S>
+     <SCRTEXT_M>Nombre campo</SCRTEXT_M>
+     <SCRTEXT_L>Nombre campo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Parametrede alan</DDTEXT>
+     <REPTEXT>Alan</REPTEXT>
+     <SCRTEXT_S>Alan</SCRTEXT_S>
+     <SCRTEXT_M>Alan adı</SCRTEXT_M>
+     <SCRTEXT_L>Alan adı</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Kenttä parametrissa</DDTEXT>
+     <REPTEXT>Kenttä</REPTEXT>
+     <SCRTEXT_S>Kenttä</SCRTEXT_S>
+     <SCRTEXT_M>Kenttänimi</SCRTEXT_M>
+     <SCRTEXT_L>Kenttänimi</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Fält i parameter</DDTEXT>
+     <REPTEXT>Fält</REPTEXT>
+     <SCRTEXT_S>Fält</SCRTEXT_S>
+     <SCRTEXT_M>Fältnamn</SCRTEXT_M>
+     <SCRTEXT_L>Fältnamn</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Поле в параметър</DDTEXT>
+     <REPTEXT>Поле</REPTEXT>
+     <SCRTEXT_S>Поле</SCRTEXT_S>
+     <SCRTEXT_M>Име на поле</SCRTEXT_M>
+     <SCRTEXT_L>Име на поле</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Polje u parametru</DDTEXT>
+     <REPTEXT>Polje</REPTEXT>
+     <SCRTEXT_S>Polje</SCRTEXT_S>
+     <SCRTEXT_M>Naziv polja</SCRTEXT_M>
+     <SCRTEXT_L>Naziv polja</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/QCHK/CVI_ERROR_CATEGORY_FIELD</OBJECT>
+      <LANGU>1</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/QCHK/CVI_ERROR_CATEGORY_FIELD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>1</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>已经出现错误消息的字段的描述。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/QCHK/CVI_ERROR_CATEGORY_FIELD</OBJECT>
+      <LANGU>C</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/QCHK/CVI_ERROR_CATEGORY_FIELD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>C</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Označení pole, pro které je k dispozici zpráva o chybě.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/QCHK/CVI_ERROR_CATEGORY_FIELD</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/QCHK/CVI_ERROR_CATEGORY_FIELD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bezeichnung des Feldes, zu dem die Fehlernachricht aufgetreten ist.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/QCHK/CVI_ERROR_CATEGORY_FIELD</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/QCHK/CVI_ERROR_CATEGORY_FIELD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Description of the field where the error message has occurred.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/QCHK/CVI_ERROR_CATEGORY_FIELD</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/QCHK/CVI_ERROR_CATEGORY_FIELD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Désignation de la zone pour laquelle le message d&apos;erreur est survenu.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/QCHK/CVI_ERROR_CATEGORY_FIELD</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/QCHK/CVI_ERROR_CATEGORY_FIELD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Definizione del campo per il quale è stato riscontrato il messaggio di</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>errore.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/QCHK/CVI_ERROR_CATEGORY_FIELD</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/QCHK/CVI_ERROR_CATEGORY_FIELD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>エラーメッセージが発生した項目のテキスト</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/QCHK/CVI_ERROR_CATEGORY_FIELD</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/QCHK/CVI_ERROR_CATEGORY_FIELD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Denominação do campo, para o qual ocorreu uma mensagem de erro.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/QCHK/CVI_ERROR_CATEGORY_FIELD</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/QCHK/CVI_ERROR_CATEGORY_FIELD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Denominación del campo para el que ha aparecido el mensaje de error.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

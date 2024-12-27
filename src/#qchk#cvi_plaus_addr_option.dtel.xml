@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/QCHK/CVI_PLAUS_ADDR_OPTION</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>DDOPTION</DOMNAME>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>15</SCRLEN3>
+    <DDTEXT>Werteingrenzung  für Plausibilitätsprüfung Adresse</DDTEXT>
+    <REPTEXT>Option Adresse</REPTEXT>
+    <SCRTEXT_S>Opt. Adr.</SCRTEXT_S>
+    <SCRTEXT_M>Option Adresse</SCRTEXT_M>
+    <SCRTEXT_L>Option Adresse</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>W</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>范围类型的行类型中的 SIGN 组件的类型</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>범위유형내 행유형의 SIGN 구성요소유형</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <REPTEXT>ZNAK</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Typ komponenty SIGN v typu řádky typu ranges</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Type of SIGN component in row type of a Ranges type</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+     <SCRTEXT_S>OPT. Addr.</SCRTEXT_S>
+     <SCRTEXT_M>OPTION Address</SCRTEXT_M>
+     <SCRTEXT_L>OPTION Address</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type des composantes SIGN dans type de ligne du type ranges</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>SIGN komponens típusa egy Ranges-típus sortípusában</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Tipo del componente SIGN nel tipo riga di un tipo ranges</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>範囲データ型の行データ型: タイプ SIGN のコンポーネント</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Typ składnika SIGN w typie linii typu Ranges</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>一範圍類型的列類型中符號元素的類型</DDTEXT>
+     <REPTEXT>符號</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Type van component SIGN in regeltype van een ranges-type</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de componente SIGN na ctg.de linha de uma ctg.ranges</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Typ komponentu SIGN v type riadka typu Ranges</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Тип компонента SIGN в типе строки Ranges-типа</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Tipo del componente SIGNO en tipo línea de tipo range</DDTEXT>
+     <REPTEXT>SIGN</REPTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <REPTEXT>ЗНАК</REPTEXT>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
